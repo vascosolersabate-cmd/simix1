@@ -1,0 +1,8 @@
+<script>
+        let nombre = prompt("Ingresa tu nombre:");
+        let anioNacimiento = parseInt(prompt("Ingresa tu año de nacimiento:"));
+        let anioActual = new Date().getFullYear();
+        let edad = anioActual - anioNacimiento;
+        
+        document.write("Hola, " + nombre + ". Tu edad aproximada es " + edad + " años.");
+    </script>
